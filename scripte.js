@@ -69,7 +69,7 @@ document.querySelector(".control-buttons span").onclick = function () {
     setTimeout(()=>{
 
         blocksContainer.classList.remove('no-clicking')
-    },3000)
+    },5000)
  }
 
  function checkMatchedBlocks(firstBlock, secondBlock) {
