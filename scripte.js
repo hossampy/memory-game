@@ -69,7 +69,7 @@ document.querySelector(".control-buttons span").onclick = function () {
     setTimeout(()=>{
 
         blocksContainer.classList.remove('no-clicking')
-    },5000)
+    },2000)
  }
 
  function checkMatchedBlocks(firstBlock, secondBlock) {
@@ -127,7 +127,7 @@ function abda(array) {
             // After 2 seconds, remove the 'is-flipped' class
             setTimeout(() => {
                 block.classList.remove('is-flipped');
-            }, 1000);
+            }, 3000);
 
         
     });
